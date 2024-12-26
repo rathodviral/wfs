@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="Backup/backup.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-error-message" style="max-width: 1373px;"">
+    <div
+      style="
+        max-width: 1373px;
+        margin: 0;
+        z-index: 2;
+        background: #f9f7f6;
+        position: relative;
+      "
+    >
+      <!-- <div class="yellow-bar-top">
+          <img src="images/clockhands.png" alt=""
+              style="vertical-align: middle;width: 34.38px;height: 32px;gap: 0px;opacity: 0px;">
+          <span class="page_heading">The savings bonus offer has expired. Explore savings products
+              below.</span>
+      </div> -->
+      <div class="red-bar">
+        <h1 class="main-text">
+          <strong>Save more</strong>
+          starting today
+        </h1>
+        <img src="images/WF_icon_piggybank_rgb_F1.png" alt="" />
+      </div>
+      <div
+        class="savings-table"
+        id="savings-table"
+        cellpadding="0"
+        cellspacing="0"
+      >
+        <table style="width: 100%" colspan="0" rowspan="0">
+          <thead>
+            <tr>
+              <th></th>
+              <th
+                class="table-question"
+                style="
+                  width: 320px;
+                  height: 44px;
+                  gap: 0px;
+                  opacity: 0px;
+                  text-align: center;
+                "
+              >
+                <span>Way2Save® Savings</span>
+                <br />Most popular <br />
+                savings account
+              </th>
+              <th style="text-align: center">
+                <span>Platinum Savings</span> <br />Flexible account
+                <br />access
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="mobile-visible">
+              <th colspan="2">
+                Automatic transfers<sup style="white-space: nowrap"
+                  ><a href="#dec1" aria-label="move to footnote 1 description"
+                    >1</a
+                  ></sup
+                >
+              </th>
+            </tr>
+            <tr>
+              <th class="desktop-visible">
+                Automatic transfers<sup
+                  ><a href="#dec1" aria-label="move to footnote 1 description"
+                    >1</a
+                  ></sup
+                >
+              </th>
+              <td>
+                <span style="width: 28px; max-width: 30%; color: #3b3331"
+                  >&#10004;</span
+                >
+              </td>
+              <td>
+                <span style="width: 28px; max-width: 30%; color: #3b3331"
+                  >&#10004;</span
+                >
+              </td>
+            </tr>
+            <tr class="mobile-visible">
+              <th colspan="2">
+                Optional Overdraft Protection<sup
+                  ><a href="#dec2" aria-label="move to footnote 2 description"
+                    >2</a
+                  ></sup
+                >
+              </th>
+            </tr>
+            <tr>
+              <th class="desktop-visible">
+                Optional Overdraft Protection<sup
+                  ><a href="#dec2" aria-label="move to footnote 2 description"
+                    >2</a
+                  ></sup
+                >
+              </th>
+              <td>
+                <span style="width: 28px; max-width: 30%; color: #3b3331"
+                  >&#10004;</span
+                >
+              </td>
+              <td>
+                <span style="width: 28px; max-width: 30%; color: #3b3331"
+                  >&#10004;</span
+                >
+              </td>
+            </tr>
+            <tr class="mobile-visible">
+              <th colspan="2">
+                Relationship rates available<sup
+                  ><a href="#dec3" aria-label="move to footnote 3 description"
+                    >3</a
+                  ></sup
+                >
+              </th>
+            </tr>
+            <tr>
+              <th class="desktop-visible">
+                Relationship rates available<sup
+                  ><a href="#dec3" aria-label="move to footnote 3 description"
+                    >3</a
+                  ></sup
+                >
+              </th>
+              <td></td>
+              <td>
+                <span style="width: 28px; max-width: 30%; color: #3b3331"
+                  >&#10004;</span
+                >
+              </td>
+            </tr>
+            <tr class="mobile-visible">
+              <th colspan="2">Option to write checks</th>
+            </tr>
+            <tr>
+              <th class="desktop-visible">Option to write checks</th>
+              <td></td>
+              <td>
+                <span style="width: 28px; max-width: 30%; color: #3b3331"
+                  >&#10004;</span
+                >
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr class="mobile-visible">
+              <th colspan="2">Monthly service fee</th>
+            </tr>
+            <tr>
+              <th
+                class="desktop-visible"
+                style="border: 0px; vertical-align: top; padding-top: 25px"
+              >
+                Monthly service fee
+              </th>
+              <td style="border: 0px">
+                <a href="#" class="wf-modal-link_1" id="wf-modal-link_1">
+                  Avoid the $5 monthly service fee</a
+                >
+                <a
+                  class="button open_way2save"
+                  href="https://www.wellsfargo.com/wf/product/apply?prodSet=APP2K&prodCode=SAV-AM"
+                  target="_blank"
+                  >Open Way2Save >>
+                  <span class="lb_hidden">(opens new window)</span>
+                </a>
+                <a
+                  href="https://www.wellsfargo.com/savings-cds/way2save/"
+                  class="learn_more"
+                  target="_blank"
+                  >Learn more
+                  <span class="lb_hidden">(opens new window)</span></a
+                >
+                <p>Open with $25.</p>
+              </td>
+              <td style="border: 0px">
+                <a href="#" class="wf-modal-link_2" id="wf-modal-link_2"
+                  >Avoid the $12 monthly service fee</a
+                >
+                <a
+                  class="button open_platinum"
+                  href="https://www.wellsfargo.com/wf/product/apply?prodSet=APP2K&prodCode=SAV-ME"
+                  target="_blank"
+                  >Open Platinum >>
+                  <span class="lb_hidden">(opens new window)</span></a
+                >
+                <a
+                  href="https://www.wellsfargo.com/savings-cds/platinum/"
+                  class="learn_more"
+                  target="_blank"
+                  >Learn more
+                  <span class="lb_hidden">(opens new window)</span></a
+                >
+                <p>Open with $25.</p>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+    <div
+      class="section_2 slider-mobile-wrapper"
+      style="background: #f9f7f6; position: relative; z-index: 1"
+    >
+      <div class="yellow-bar-wrapper">
+        <div class="yellow-bar" style="margin-left: 0px"></div>
+      </div>
+      <h2 style="color: #000; text-align: left">
+        Bank your way with confidence
+      </h2>
+      <div class="show-desktop">
+        <div class="tab-cover">
+          <ul class="nav">
+            <li class="tablinks active" tabindex="0" data-target="tab-one">
+              Plan for the future you want
+            </li>
+            <li class="tablinks" tabindex="0" data-target="tab-two">
+              Need help? Ask Fargo®
+            </li>
+            <li class="tablinks" tabindex="0" data-target="tab-three">
+              Focus on your finances
+            </li>
+          </ul>
+          <div id="tab-one" class="tabcontent active">
+            <div class="image-block">
+              <img src="images/LifeSync.png" alt="" style="width: 100%" />
+            </div>
+            <div class="caption" tabindex="-1">
+              <p style="padding-top: 120px">
+                Get curated content, set financial goals, and track your
+                progress today in
+                <a
+                  href="https://www.wellsfargo.com/mobile-online-banking/lifesync/"
+                  target="_blank"
+                  class="lifesync"
+                >
+                  LifeSync® <span class="lb_hidden">(opens new window)</span></a
+                >.<sup
+                  ><a href="#dec4" aria-label="move to footnote 4 description"
+                    >4</a
+                  ></sup
+                >
+              </p>
+            </div>
+          </div>
+          <div id="tab-two" class="tabcontent">
+            <div class="image-block">
+              <img
+                src="images/Fargo.png"
+                alt=""
+                style="height: 100%; width: 100%"
+              />
+            </div>
+            <div class="caption" tabindex="-1">
+              <p style="padding-top: 30px">
+                Gaining account insights and moving money can be simple with
+                <a
+                  href="https://sites.wf.com/fargo/"
+                  target="_blank"
+                  class="fargo"
+                  >Fargo <span class="lb_hidden">(opens new window)</span></a
+                >
+                <sup
+                  ><a href="#dec5" aria-label="move to footnote 5 description"
+                    >5</a
+                  ></sup
+                >
+                — your virtual assistant in the Wells Fargo Mobile® app.
+              </p>
+            </div>
+          </div>
+          <div id="tab-three" class="tabcontent">
+            <div class="image-block">
+              <img
+                src="images/CCU_Landing_Current.jpg"
+                alt=""
+                style="height: 100%; width: 100%"
+              />
+            </div>
+            <div class="caption" tabindex="-1" style="margin-top: -10px">
+              <p>
+                Access
+                <a
+                  href="https://www.wellsfargo.com/financial-health/"
+                  target="_blank"
+                  class="financialgoals"
+                  >Financial Goals
+                  <span class="lb_hidden">(opens new window)</span></a
+                >
+                for resources and tools that can help you make financial
+                decisions, such as Credit Close-Up®<sup
+                  ><a href="#dec6" aria-label="move to footnote 6 description"
+                    >6</a
+                  ></sup
+                >.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            padding-right: 135px;
+            padding-top: 5px;
+            padding-bottom: 90px;
+          "
+        >
+          Screen image simulated.
+        </div>
+      </div>
+      <!-- Swiper -->
+      <div class="hidden-desktop">
+        <div class="position-relative">
+          <div class="owl-carousel owl-carousel-mobile owl-theme">
+            <div class="slider-item-mobile" tabindex="-1">
+              <div>
+                <div class="slider-img">
+                  <img src="images/LifeSync.png" alt="" />
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    padding-right: 135px;
+                    padding-top: 5px;
+                    padding-bottom: 20px;
+                  "
+                >
+                  Screen image simulated.
+                </div>
+                <h3>Plan for the future you want</h3>
+                <p>
+                  Get curated content, set financial goals, and track your
+                  progress today in
+                  <a
+                    href="https://www.wellsfargo.com/mobile-online-banking/lifesync/"
+                    target="_blank"
+                    class="lifesync"
+                  >
+                    LifeSync®
+                    <span class="lb_hidden">(opens new window)</span></a
+                  >.<sup
+                    ><a href="#dec4" aria-label="move to footnote 4 description"
+                      >4</a
+                    ></sup
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="slider-item-mobile" tabindex="-1">
+              <div>
+                <div class="slider-img">
+                  <img src="images/Fargo.png" alt="" />
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    padding-right: 135px;
+                    padding-top: 5px;
+                    padding-bottom: 20px;
+                  "
+                >
+                  Screen image simulated.
+                </div>
+                <h3>Need help? Ask Fargo®</h3>
+                <p>
+                  Gaining account insights and moving money can be simple with
+                  <a
+                    href="https://sites.wf.com/fargo/"
+                    target="_blank"
+                    class="fargo"
+                    >Fargo <span class="lb_hidden">(opens new window)</span></a
+                  >
+                  <sup
+                    ><a href="#dec5" aria-label="move to footnote 5 description"
+                      >5</a
+                    ></sup
+                  >
+                  — your virtual assistant in the Wells Fargo Mobile® app.
+                </p>
+              </div>
+            </div>
+            <div class="slider-item-mobile" tabindex="-1">
+              <div>
+                <div class="slider-img">
+                  <img src="images/CCU_Landing_Current.jpg" alt="" />
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    padding-right: 135px;
+                    padding-top: 5px;
+                    padding-bottom: 20px;
+                  "
+                >
+                  Screen image simulated.
+                </div>
+                <h3>Focus on your finances</h3>
+                <p>
+                  Access
+                  <a
+                    href="https://www.wellsfargo.com/financial-health/"
+                    target="_blank"
+                    class="financialgoals"
+                    >Financial Goals
+                    <span class="lb_hidden">(opens new window)</span></a
+                  >
+                  for resources and tools that can help you make financial
+                  decisions, such as Credit Close-Up®<sup
+                    ><a href="#dec6" aria-label="move to footnote 6 description"
+                      >6</a
+                    ></sup
+                  >.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="button-control">
+            <a class="bank-previous-button"> ‹ </a>
+            <a class="bank-next-button"> › </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div id="classSystem"></div> -->
+    <script type="text/javascript" src="jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="script.js"></script>
+    <!-- <script src="zoom.js"></script> -->
+    <!-- <script src="wfs-modal.js"></script>
+    <script src="viral-script.js"></script> -->
+  </body>
+</html>
